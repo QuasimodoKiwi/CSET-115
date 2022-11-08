@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+}
+
+section{
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    width: auto;
+}
+
+header{
+    justify-content: space-around;
+    background-color: white;
+    width: auto;
+    border: 2px solid black;
+    background-color: black;
+    position: relative;
+    margin-bottom: 10px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+header a, ul{
+    text-decoration: none;
+    list-style-type: none;
+    color: mediumspringgreen;
+    font-weight: 300;
+}
+
+header li{
+    padding: 8px;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    padding: 10%;
+    background-image: url("images/binary.gif");
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+#salutations{
+    display: inline-block;
+    background-color: white;
+    color: red;
+    font-size: 30pt;
+    font-family: 'Freehand', 'cursive';
+}
+
+#name{
+    display: inline-block;
+    background-color: black;
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img{
+    width: 25%;
+    height: auto;    
+}
+
+/* margin-shorthand: top, right, bottom, left */
+
+.intro-section{
+    display: flex;
+    justify-content: center;
+    margin: 10px 50px 50px 50px; 
+    padding: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: green;
+    background-color: black;
+}
+
+.background-section{
+    display: flex;
+    padding: 10px;
+    margin: 0 50px 50px 50px;
+    background-color: yellowgreen;
+    justify-content: center;
+}
+.background-section li{
+    margin: 10px ;
+    padding: 10px;
+    text-align: left;
+    color: brown;
+    background-color: mintcream;
+}
+
+.skill-section{
+    width: auto;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    font-size: 15pt;
+    align-items: center;
+    color: rgb(110, 214, 72);
+    background-image: url("images/htmlWallpaper.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.skill-section li{
+    padding: 9px;
+}
+
+.skill-section div{
+    background-color: black;
+}
+
+/* margin-shorthand: top, right, bottom, left */
+
+.likes-and-goal-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: black;
+    background-color: aquamarine;
+    /* float: righ  t; */
+    margin: 10px 50px 50px 50px; 
+    padding: 100px;
+    width: auto;
+}
+
+#l-g-image img{
+    display: inline-block;
+    width: 100%;
+}
+
+.goal-section{
+    background-color: aquamarine;
+    width: 25%;
+    margin: 10px 50px 50px 50px;
+    padding: 100px;
+}
+
+.collection-section{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    text-align: center;
+    width: 100%;
+}
